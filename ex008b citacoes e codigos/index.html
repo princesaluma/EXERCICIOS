@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+   <h1>Outras formatações</h1> 
+   <h2>Código-fonte</h2>
+   <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript.</p><!--observando o texto na página vemos que as letras não são monoespaçadas isto é não é reservado espaco igual, do mesmo tamanho para todas as letras-->
+   <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p><!--quando envelopamos o código na tag CODE todas as letras ficam do mesmo tamanho dando uma visualização melhor, chama-se fonte monoespaçada que é excelente para ler códigos.-->
+   
+   <code>
+    
+       num = int(imput('Digite um número'))
+       if num % 2 == 0:
+         print(f' o número {num} é PAR')
+         else:
+         print(f' o número é IMPAR')
+         print('fim do programa')
+      </code>
+
+      <pre>
+        <code>
+        
+    
+          num = int(imput('Digite um número'))
+          if num % 2 == 0:
+            print(f' o número {num} é PAR')
+            else:
+            print(f' o número é IMPAR')
+            print('fim do programa'
+        
+           </code>
+      </pre>
+      <!--o código acima é na linguagem python-->
+     <!--no caso do código acima o código fica em formato de frase e não de código e é necessário envelopar todo código  inclusive entre o CODE em PRE. Quando coloca PRE o código fica organizado inclusive o espaço antes. No caso o segundo exemplo mostra essa formatação-->
+
+<h2>Citações simples sem quebra de linha</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+<!--quando coloca o Q ele coloca o texto desejável dentro de aspas...isso é semantico enquanto as aspas da forma. Então quando for uma citação sempre usar o Q-->
+<h2>Citações completas</h2>
+<p>Segundo Jeff Nobel, no seu livro HTML, XHTML e CSS para leigos:
+  <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/oWkeeH6ik1MC?hl=pt-BR&gbpv=1&dq=html+,+xhtml+e+css+para+leigos+ed+Tittel&pg=PA298&printsec=frontcover">
+    A diferença entre os elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos do texto
+  </blockquote>
+  <blockquote><strong> comentario:o blockque é usado para citações maiores e quando esta na pagina ele tem uma quebra de linha e fica alinhado um pouco mais a direita do testo e a tag cite é usada  para citar por ex, a URL do livro. O  cite não vai aparecer na página mas os mecanismos de busca , google etc vão saber que essa URL é do livro e manter os direitos daqueles que produzem o conteúdo</strong></blockquote>
+</p>
+<h2><abbr title="abreviação">Abreviações</abbr></h2>
+<p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+<bloquete><strong>comentario: a tag abbr é usada para mostrar o significao da abraeviação quando passamos o mouse sobre ele. Pode ser usado em qualque coisa </strong> </bloquete> 
+  <abbr title="mochila patrulha canina"><img src="patrulha-canina 300.jpg" alt="patrulha canina"></abbr>
+  <!--a imagem acima coloquei apenas para ver se funciona com imagens e sim, funciona. Não pode esquecer de colocar entre as aspas o titulo a que se refere-->
+  <h2>Texto invertido</h2>
+  
+    <p><bdo dir="rtl"> Estou aprendendo a criar texto em HTML </bdo></p>
+ <!--a tag BDO rtl inverte a frase -->
+</body>
+</html>  

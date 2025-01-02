@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+
+    <style>
+      body{
+        background-color: gray;
+      }
+      main{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+
+       min-width: 280px;/*valor mais responsivo que width*/
+       max-width: 800px;/*valor mais responsivo que width*/
+        margin: auto; /*coloca o conteúdo no centro*/
+      }
+      img{
+        width: 100%;/*a imagem não quebra e vai reduzindo junto com o tamanho da tela*/
+      }
+
+    </style>
+</head>
+<body>
+   <main>
+      <h1>Testando Responsividade</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+     </p>
+     <picture> <!--tem que ter dois tamanhos diferentes de imagens-->
+        <source media="600px)" srcset="imagens/irina-blok-pq.jpg">
+        <img src="imagens/irina-blok.jpg" alt="Irina Block">
+    </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa at officiis incidunt, dolore soluta perferendis ipsum quia nostrum, ut accusamus quae assumenda iste voluptatum totam doloremque ratione vero facilis!
+           </p>
+        
+     
+
+   </main> 
+</body>
+</html>
